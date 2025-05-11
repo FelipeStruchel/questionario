@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Círculo externo -->
+  <circle cx="100" cy="100" r="90" stroke="#4CAF50" stroke-width="8" fill="none"/>
+  
+  <!-- Folha estilizada -->
+  <path d="M100 30C100 30 130 60 130 100C130 140 100 170 100 170C100 170 70 140 70 100C70 60 100 30 100 30Z" fill="#4CAF50"/>
+  
+  <!-- Linha central da folha -->
+  <path d="M100 30L100 170" stroke="#81C784" stroke-width="4"/>
+  
+  <!-- Pequenos círculos representando pegadas -->
+  <circle cx="85" cy="70" r="5" fill="#81C784"/>
+  <circle cx="115" cy="70" r="5" fill="#81C784"/>
+  <circle cx="85" cy="130" r="5" fill="#81C784"/>
+  <circle cx="115" cy="130" r="5" fill="#81C784"/>
+</svg> 
