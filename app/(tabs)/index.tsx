@@ -20,15 +20,11 @@ export default function HomeScreen() {
         />
 
         <ThemedView style={styles.titleContainer}>
-          <ThemedText style={[styles.title, { color: colors.text }]}>
-            Pegada Ecológica
-          </ThemedText>
+          <ThemedText style={[styles.title, { color: colors.text }]}>Ecologiapp</ThemedText>
         </ThemedView>
 
         <ThemedView style={styles.descriptionContainer}>
-          <ThemedText style={[styles.description, { color: colors.text }]}>
-            Descubra quantos planetas seriam necessários para sustentar seu estilo de vida! Este questionário avalia seu impacto ambiental em diferentes aspectos do dia a dia, incluindo transporte, consumo de energia, alimentação e uso de água.
-          </ThemedText>
+          <ThemedText style={[styles.description, { color: colors.text }]}>Descubra o impacto do seu estilo de vida no planeta! O Ecologiapp avalia seu impacto ambiental em diferentes aspectos do dia a dia, incluindo transporte, consumo de energia, alimentação e uso de água.</ThemedText>
         </ThemedView>
 
         <Pressable 
@@ -79,13 +75,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 40,
     borderRadius: 25,
     elevation: 3,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
+    boxShadow: '0px 2px 3.84px rgba(0,0,0,0.25)',
     minWidth: 200,
   },
   startButtonText: {

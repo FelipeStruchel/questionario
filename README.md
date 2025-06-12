@@ -1,11 +1,11 @@
-# Questionário de Pegada Ecológica
+# Ecologiapp
 
-Este aplicativo é um questionário interativo que avalia a pegada ecológica do usuário através de questões sobre transporte, consumo de energia, alimentação e uso de água.
+Este aplicativo é um questionário interativo que avalia o impacto ecológico do usuário através de questões sobre transporte, consumo de energia, alimentação e uso de água.
 
 ## Funcionalidades
 
 - Questionário completo sobre sustentabilidade
-- Cálculo automático da pegada ecológica
+- Cálculo automático do impacto ecológico
 - Número de planetas necessários para sustentar o estilo de vida
 - Dicas personalizadas para redução do impacto ambiental
 - Persistência dos últimos resultados
@@ -23,8 +23,8 @@ Este aplicativo é um questionário interativo que avalia a pegada ecológica do
 
 1. Clone o repositório:
 ```bash
-git clone [URL_DO_REPOSITÓRIO]
-cd questionario
+git clone [URL_DO_REPOSITORIO]
+cd ecologiapp
 ```
 
 2. Instale as dependências:

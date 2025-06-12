@@ -162,11 +162,11 @@ export default function QuestionarioScreen() {
     const tips = [];
     
     if (planets > 1) {
-      tips.push(`Sua pegada ecológica indica que precisaríamos de ${planets} planetas para sustentar seu estilo de vida.`);
+      tips.push(`Seu impacto ecológico indica que precisaríamos de ${planets} planetas para sustentar seu estilo de vida.`);
     }
 
     if (score < 80) {
-      tips.push("Sugestões para reduzir sua pegada ecológica:");
+      tips.push("Sugestões para reduzir seu impacto ecológico:");
       
       // Dicas específicas baseadas nas categorias com menor pontuação
       const categoryScores = questions.reduce((acc, q, index) => {
@@ -241,7 +241,7 @@ export default function QuestionarioScreen() {
             Planetas necessários: {planets}
           </ThemedText>
           <ThemedText style={[styles.footprintText, { color: colors.text }]}>
-            Nível da Pegada: {footprintLevel}
+            Nível do Impacto: {footprintLevel}
           </ThemedText>
           <ThemedText style={[styles.tipsText, { color: colors.text }]}>
             {getHealthTips(score, planets)}
