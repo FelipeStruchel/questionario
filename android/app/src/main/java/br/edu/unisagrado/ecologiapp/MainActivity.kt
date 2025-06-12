@@ -1,4 +1,4 @@
-package com.anonymous.questionario
+package br.edu.unisagrado.ecologiapp
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

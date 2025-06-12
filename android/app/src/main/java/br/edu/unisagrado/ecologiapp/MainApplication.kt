@@ -1,4 +1,4 @@
-package com.anonymous.questionario
+package br.edu.unisagrado.ecologiapp
 
 import android.app.Application
 import android.content.res.Configuration
